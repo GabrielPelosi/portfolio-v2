@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Salles Project',
-    description: "This project was developed in a bootcamp from Dev Nelio Supeior. The context was a admin dashboard to read and present salles and sellers data",
+    description: "This project was developed in an online bootcamp (Dev Nelio Superior). The bootcamp lasted a week and in this week, I developed alone (without a team) an admin dashboard to show a table with pagination of all sales and the respective seller and 2 charts for percentage of success and total amount of each seller.",
       image: 'https://raw.githubusercontent.com/GabrielPelosi/Projeto-Vendas/main/vendas_front.jpg',
       tags: ['React', 'TypeScript', 'Java', 'Maven', 'Spring boot'],
     source: 'https://github.com/GabrielPelosi/Projeto-Vendas',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Todo list application',
-    description:"To do list manager application.",
+    description:"This was a personal project to train and study Spring Framework and React with Typescript.The context was to help people to reach their personal goals with task management, so they can organize and prepare their tasks to finish them. A task consists in a title and a description, so a registered can add new tasks with a title and description and delete the created tasks when finished. A login and email confirmation were developed to secure the application.",
     image: 'https://raw.githubusercontent.com/GabrielPelosi/Projeto-ToDo-List/main/todo-tasks_react.jpg',
     tags: ['React', 'TypeScript' , 'Java','Maven', 'Spring boot'],
     source: 'https://github.com/GabrielPelosi/Projeto-ToDo-List',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Note App',
-    description: "",
+    description: "The goal of this project was to study more about React js and Spring framework. So I develop this application as a public online wall for every one leave a message to someone. Only create and read notes is able to users, search by the content and delete notes Is able only for admin users. To perform this use cases as admin is necessary login in the platform.Users can't perform register and login actions, the application is open for every one.",
       image: 'https://raw.githubusercontent.com/GabrielPelosi/notes-application/main/notes_react.jpg',
       tags: ['React', 'JavaScript', 'Java','Maven', 'Spring boot', 'Sass'],
     source: 'https://github.com/GabrielPelosi/notes-application',
@@ -31,17 +31,17 @@ export const projects = [
     description: "Recreation of Hulu",
     image: '',
     tags: ['React', 'JavaScript', 'Next.js', 'Tailwind'],
-    source: 'https://google.com',
+    source: 'https://github.com/GabrielPelosi/hulu2.0',
     visit: 'https://google.com',
     id: 3,
   },
   {
     title: 'This portfolio',
     description: "Web portfolio",
-    image: '',
+    image: 'https://raw.githubusercontent.com/GabrielPelosi/portfolio-v2/master/port.png',
     tags: ['React', 'JavaScript', 'Next.js', 'Styled Components'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/GabrielPelosi/portfolio-v2',
+    visit: '',
     id: 3,
   },
 ];
