@@ -38,9 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Started software engineering college', },
+  { year: 2019, text: 'Mastered Java language and started learning Spring boot', },
+  { year: 2020, text: 'Started learning JavaScript, html, css, npm, React and TypeScript', },
+  { year: 2021, text: 'Mastered React.js, css,html and started learning Sass, tailwinds, next.js and resposnive web design. Finished Responsive web pages and javascript courses in FreeCodeCamp.org' },
+  { year: 2022, text: 'Will finish my software engineering college and start a Front-end developer carrer'}
 ];
