@@ -19,7 +19,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Already developed <br/>
             React apps with JavaScript and TypeScript, 
-            Html5, css3, Sass and taiwind
+            Html5, css3, Sass, Taiwind and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
