@@ -1,5 +1,48 @@
 import styled from 'styled-components';
 
+
+export const CheckBoxWrapper = styled.div`
+  position: relative;
+`;
+export const CheckBoxLabel = styled.label`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 190px;
+  height: 32px;
+  border-radius: 15px;
+  background: #bebebe;
+  cursor: pointer;
+  &::after {
+    margin-left: 5px;
+    margin-top: 7px;
+    content: "Personal";
+    display: block;
+    transition: 0.2s;
+  }
+`;
+export const CheckBox = styled.input`
+  opacity: 0;
+  z-index: 1;
+  border-radius: 15px;
+  width: 62px;
+  height: 26px;
+  &:checked + ${CheckBoxLabel} {
+    background: #4fbe79;
+    &::after {
+      content: "Academic";
+      display: block;
+      margin-top: 7px;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      margin-left: 105px;
+      transition: 0.2s;
+    }
+  }
+`;
+
+
 export const Img = styled.img`
   width:100%;
   height:100%;
