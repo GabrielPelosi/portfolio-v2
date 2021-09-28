@@ -28,11 +28,11 @@ export const projects = [
   },
   {
     title: 'Hulu 2.0',
-    description: "Recreation of Hulu",
-    image: '',
+    description: "Recreation of Hulu streaming web site. I have done the header and nav with animation and hover effects, the movies and thumbnails. The web site is fully responsive",
+    image: 'https://raw.githubusercontent.com/GabrielPelosi/hulu2.0/master/hulu.JPG',
     tags: ['React', 'JavaScript', 'Next.js', 'Tailwind'],
     source: 'https://github.com/GabrielPelosi/hulu2.0',
-    visit: 'https://google.com',
+    visit: 'https://6152f34b291bb01dc234f534--hulu2pelosi.netlify.app/',
     id: 3,
   },
   {
