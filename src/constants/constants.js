@@ -48,10 +48,11 @@ export const PersonalProjects = [
 
 export const TimeLineData = [
   { year: 2018, text: 'Started software engineering college', },
-  { year: 2019, text: 'Mastered Java language and started learning Spring boot', },
+  { year: 2019, text: 'Mastered Java language and started learning Spring boot and Docker', },
   { year: 2020, text: 'Started learning JavaScript, html, css, npm, React and TypeScript', },
   { year: 2021, text: 'Mastered React.js, css,html and started learning Sass, tailwinds, next.js and resposnive web design. Finished Responsive web pages and javascript courses in FreeCodeCamp.org' },
-  { year: 2022, text: 'Will finish my software engineering college and start a Front-end developer carrer'}
+  { year: 2022, text: 'Finished my Fullstack developer internship and software engineering college and also started a Java Backend developer carrer'},
+  { year: 2023, text: 'Learning and working with Java, Springboot, docker and pretend to integrate Kubernetes, AWS, Kafka and many other technologies in my skill set'}
 ];
 
 
@@ -62,7 +63,7 @@ export const academicProjects = [
     description: "The developer team was engaged to work in a project that performs social media analysis. Our client was pretending to represent a newspaper company that wanted to analyze their sub-companies and connections. Given that, we had many excel files to analyze, cast to social media matrix and graphs, analyze the graph type and with the treated information we built a terminal line application with a simple menu that shows density, page-rank calculus, leaving and entering degrees and many other functionalities about their social media. All the work was documented in a report, unit tests for a more robust and solid application were made and the scope of the project was Trunkey project to our client.",
       image: '/images/img_LAPR1.jpg',
       tags: ['Java', 'advanced calculus library', 'Aunt', 'JUnit'],
-    source: 'https://github.com/GabrielPelosi/Projeto-Vendas',
+    source: 'https://github.com/GabrielPelosi/Isep-LAPR1',
     id: 0,
   },
   {
@@ -70,7 +71,7 @@ export const academicProjects = [
     description:"In the second semester, my team was able to work in a big project to manage house services provided by a company. Some use cases required were, login and register clients, apply users to service provider system, hire service providers applied, evaluate services, create new services, export service provider information to pdf, xml, xlxs, csv, txt files and more. However, 2 system application were requested, one for client users, so use cases for client users were developed in this application, and another application for the service providers, for export their information to files and manage their services to provide and also the already provided services (works as a dashboard application)",
     image: '/images/img_LAPR2.jpg',
     tags: ['Java', 'OOP' , 'GRASP','SOLID', 'Scrum', 'Maven', 'JUnit', 'JavaFX'],
-    source: 'https://github.com/GabrielPelosi/Projeto-ToDo-List',
+    source: 'https://github.com/GabrielPelosi/Isep-Lapr2',
     id: 1,
   },
   {
@@ -78,7 +79,7 @@ export const academicProjects = [
     description: "This project was a simulation of an API for online e-commerce pharmacies. In the requested features we had to manage electric scooters, drones, parking, products, purchases and pharmacies, calculate for the deliveryman the most economic route (in the context for his scooter), best route, recalculate the route if he takes the wrong street and for drones. All the data was persisted in an oracle database, no interface was required so we used SOLID and GRASP principles and MVC was no required. ",
       image: '/images/img_LAPR3.jpg',
       tags: ['Java', 'OracleDB', 'Java','Maven', 'JUnit', 'Grasp', 'Solid'],
-    source: 'https://github.com/GabrielPelosi/notes-application',
+    source: 'https://github.com/GabrielPelosi/lapr3-isep',
     id: 2,
   },
   {
@@ -86,7 +87,7 @@ export const academicProjects = [
     description: "In this semester, my team was requested to develop a Helpdesk as Service system. The project consisted in a stand-alone Java 11 application in command line. We had many use cases as manage service catalog, users(login/register), services, send email for registered user with generated password, require services, evaluate services, manage help-desk team, execute tasks, monitor tasks, manage the status of tasks (required, submitted). Our client was a real company (ARMIS group) that has passed their context of a real project.  We were accompanied by an engineer from the ARMIS group who played the role of customer and helped with all the business rules",
     image: '/images/img_LAPR4.jpg',
     tags: ['Java ', ' JPA ', ' DDD ', 'Design Patterns'],
-    source: 'https://github.com/GabrielPelosi/hulu2.0',
+    source: 'https://github.com/GabrielPelosi/Lapr4-Isep',
     id: 3,
   },
 ]
