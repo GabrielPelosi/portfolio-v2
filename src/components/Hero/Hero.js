@@ -4,7 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const resume = 'https://raw.githubusercontent.com/GabrielPelosi/GabrielPelosi/9c2bf621e476b5092bd0fade7499b6d756816ebc/resume.pdf'
+const resume = 'https://raw.githubusercontent.com/GabrielPelosi/GabrielPelosi/main/resume.pdf'
 
 const Hero = (props) => (
   <Section row nopadding> 
